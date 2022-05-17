@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class PaymentController {
 	
 	@GetMapping("/all")
-	public String testProduct() {
-		return "PRODUCT API";
+	public String testPayment() {
+		return "Payment API";
 	}	
 
 }
